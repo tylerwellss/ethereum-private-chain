@@ -1,458 +1,158 @@
-INFO [07-19|11:28:35.738] Maximum peer count                       ETH=25 LES=0 total=25
-INFO [07-19|11:28:35.749] Starting peer-to-peer node               instance=Geth/v1.8.12-stable/darwin-amd64/go1.10.3
-INFO [07-19|11:28:35.750] Allocated cache and file handles         database=/Users/twells012/Projects/my-eth-chain/myDataDir/geth/chaindata cache=768 handles=1024
-INFO [07-19|11:28:35.762] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
-INFO [07-19|11:28:35.762] Disk storage enabled for ethash caches   dir=/Users/twells012/Projects/my-eth-chain/myDataDir/geth/ethash count=3
-INFO [07-19|11:28:35.762] Disk storage enabled for ethash DAGs     dir=/Users/twells012/.ethash                                     count=2
-INFO [07-19|11:28:35.762] Initialising Ethereum protocol           versions="[63 62]" network=1114
-INFO [07-19|11:28:35.763] Loaded most recent local header          number=0 hash=9d236a…641806 td=400
-INFO [07-19|11:28:35.763] Loaded most recent local full block      number=0 hash=9d236a…641806 td=400
-INFO [07-19|11:28:35.763] Loaded most recent local fast block      number=0 hash=9d236a…641806 td=400
-INFO [07-19|11:28:35.763] Regenerated local transaction journal    transactions=0 accounts=0
-INFO [07-19|11:28:35.763] Starting P2P networking 
-INFO [07-19|11:28:37.878] UDP listener up                          self=enode://e786df9f229dc518da5a282bf192bfbc79438ec0960ce1e08a756304646b9d66166f56453ef84a6f9f839d99149e5a961985266bb22af3d198852f3926c06ae2@[::]:30303
-INFO [07-19|11:28:37.878] RLPx listener up                         self=enode://e786df9f229dc518da5a282bf192bfbc79438ec0960ce1e08a756304646b9d66166f56453ef84a6f9f839d99149e5a961985266bb22af3d198852f3926c06ae2@[::]:30303
-INFO [07-19|11:28:37.881] IPC endpoint opened                      url=/Users/twells012/Projects/my-eth-chain/myDataDir/geth.ipc
-INFO [07-19|11:29:47.244] Etherbase automatically configured       address=0x8c995488293075889cef09b37F00C9338d082981
-INFO [07-19|11:30:00.427] Updated mining threads                   threads=0
-INFO [07-19|11:30:00.427] Transaction pool price threshold updated price=18000000000
-INFO [07-19|11:30:00.427] Starting mining operation 
-INFO [07-19|11:30:00.427] Commit new mining work                   number=1 txs=0 uncles=0 elapsed=295.235µs
-INFO [07-19|11:30:02.862] Generating DAG in progress               epoch=0 percentage=0 elapsed=1.759s
-INFO [07-19|11:30:04.535] Generating DAG in progress               epoch=0 percentage=1 elapsed=3.432s
-INFO [07-19|11:30:06.263] Generating DAG in progress               epoch=0 percentage=2 elapsed=5.160s
-INFO [07-19|11:30:07.967] Generating DAG in progress               epoch=0 percentage=3 elapsed=6.865s
-INFO [07-19|11:30:09.391] Generating DAG in progress               epoch=0 percentage=4 elapsed=8.289s
-INFO [07-19|11:30:10.764] Generating DAG in progress               epoch=0 percentage=5 elapsed=9.662s
-INFO [07-19|11:30:12.075] Generating DAG in progress               epoch=0 percentage=6 elapsed=10.973s
-INFO [07-19|11:30:13.404] Generating DAG in progress               epoch=0 percentage=7 elapsed=12.302s
-INFO [07-19|11:30:14.723] Generating DAG in progress               epoch=0 percentage=8 elapsed=13.621s
-INFO [07-19|11:30:16.024] Generating DAG in progress               epoch=0 percentage=9 elapsed=14.922s
-INFO [07-19|11:30:17.331] Generating DAG in progress               epoch=0 percentage=10 elapsed=16.229s
-INFO [07-19|11:30:18.645] Generating DAG in progress               epoch=0 percentage=11 elapsed=17.543s
-INFO [07-19|11:30:20.016] Generating DAG in progress               epoch=0 percentage=12 elapsed=18.914s
-INFO [07-19|11:30:21.447] Generating DAG in progress               epoch=0 percentage=13 elapsed=20.345s
-INFO [07-19|11:30:22.781] Generating DAG in progress               epoch=0 percentage=14 elapsed=21.679s
-INFO [07-19|11:30:24.134] Generating DAG in progress               epoch=0 percentage=15 elapsed=23.032s
-INFO [07-19|11:30:25.468] Generating DAG in progress               epoch=0 percentage=16 elapsed=24.366s
-INFO [07-19|11:30:25.493] Updated mining threads                   threads=0
-INFO [07-19|11:30:25.493] Transaction pool price threshold updated price=18000000000
-INFO [07-19|11:30:25.514] Starting mining operation 
-INFO [07-19|11:30:25.515] Commit new mining work                   number=1 txs=0 uncles=0 elapsed=147.843µs
-INFO [07-19|11:30:26.792] Generating DAG in progress               epoch=0 percentage=17 elapsed=25.690s
-INFO [07-19|11:30:28.095] Generating DAG in progress               epoch=0 percentage=18 elapsed=26.994s
-INFO [07-19|11:30:29.452] Generating DAG in progress               epoch=0 percentage=19 elapsed=28.350s
-INFO [07-19|11:30:30.781] Generating DAG in progress               epoch=0 percentage=20 elapsed=29.680s
-INFO [07-19|11:30:32.110] Generating DAG in progress               epoch=0 percentage=21 elapsed=31.008s
-INFO [07-19|11:30:33.548] Generating DAG in progress               epoch=0 percentage=22 elapsed=32.446s
-INFO [07-19|11:30:34.985] Generating DAG in progress               epoch=0 percentage=23 elapsed=33.884s
-INFO [07-19|11:30:36.333] Generating DAG in progress               epoch=0 percentage=24 elapsed=35.232s
-INFO [07-19|11:30:37.821] Generating DAG in progress               epoch=0 percentage=25 elapsed=36.719s
-INFO [07-19|11:30:39.245] Generating DAG in progress               epoch=0 percentage=26 elapsed=38.144s
-INFO [07-19|11:30:40.626] Generating DAG in progress               epoch=0 percentage=27 elapsed=39.525s
-INFO [07-19|11:30:42.046] Generating DAG in progress               epoch=0 percentage=28 elapsed=40.945s
-INFO [07-19|11:30:43.432] Generating DAG in progress               epoch=0 percentage=29 elapsed=42.330s
-INFO [07-19|11:30:44.743] Generating DAG in progress               epoch=0 percentage=30 elapsed=43.641s
-INFO [07-19|11:30:46.040] Generating DAG in progress               epoch=0 percentage=31 elapsed=44.939s
-INFO [07-19|11:30:47.344] Generating DAG in progress               epoch=0 percentage=32 elapsed=46.243s
-INFO [07-19|11:30:48.651] Generating DAG in progress               epoch=0 percentage=33 elapsed=47.549s
-INFO [07-19|11:30:49.966] Generating DAG in progress               epoch=0 percentage=34 elapsed=48.864s
-INFO [07-19|11:30:51.263] Generating DAG in progress               epoch=0 percentage=35 elapsed=50.162s
-INFO [07-19|11:30:52.572] Generating DAG in progress               epoch=0 percentage=36 elapsed=51.471s
-INFO [07-19|11:30:53.891] Generating DAG in progress               epoch=0 percentage=37 elapsed=52.789s
-INFO [07-19|11:30:55.228] Generating DAG in progress               epoch=0 percentage=38 elapsed=54.127s
-INFO [07-19|11:30:56.521] Generating DAG in progress               epoch=0 percentage=39 elapsed=55.419s
-INFO [07-19|11:30:57.842] Generating DAG in progress               epoch=0 percentage=40 elapsed=56.741s
-INFO [07-19|11:30:59.171] Generating DAG in progress               epoch=0 percentage=41 elapsed=58.070s
-INFO [07-19|11:31:00.604] Generating DAG in progress               epoch=0 percentage=42 elapsed=59.503s
-INFO [07-19|11:31:01.772] Generating DAG in progress               epoch=0 percentage=43 elapsed=1m0.671s
-INFO [07-19|11:31:02.856] Generating DAG in progress               epoch=0 percentage=44 elapsed=1m1.755s
-INFO [07-19|11:31:03.934] Generating DAG in progress               epoch=0 percentage=45 elapsed=1m2.833s
-INFO [07-19|11:31:05.029] Generating DAG in progress               epoch=0 percentage=46 elapsed=1m3.928s
-INFO [07-19|11:31:06.373] Generating DAG in progress               epoch=0 percentage=47 elapsed=1m5.272s
-INFO [07-19|11:31:07.452] Generating DAG in progress               epoch=0 percentage=48 elapsed=1m6.351s
-INFO [07-19|11:31:08.527] Generating DAG in progress               epoch=0 percentage=49 elapsed=1m7.426s
-INFO [07-19|11:31:09.608] Generating DAG in progress               epoch=0 percentage=50 elapsed=1m8.507s
-INFO [07-19|11:31:10.836] Generating DAG in progress               epoch=0 percentage=51 elapsed=1m9.735s
-INFO [07-19|11:31:12.182] Generating DAG in progress               epoch=0 percentage=52 elapsed=1m11.082s
-INFO [07-19|11:31:13.610] Generating DAG in progress               epoch=0 percentage=53 elapsed=1m12.509s
-INFO [07-19|11:31:14.990] Generating DAG in progress               epoch=0 percentage=54 elapsed=1m13.890s
-INFO [07-19|11:31:16.475] Generating DAG in progress               epoch=0 percentage=55 elapsed=1m15.374s
-INFO [07-19|11:31:17.838] Generating DAG in progress               epoch=0 percentage=56 elapsed=1m16.737s
-INFO [07-19|11:31:19.274] Generating DAG in progress               epoch=0 percentage=57 elapsed=1m18.173s
-INFO [07-19|11:31:20.602] Generating DAG in progress               epoch=0 percentage=58 elapsed=1m19.501s
-INFO [07-19|11:31:21.911] Generating DAG in progress               epoch=0 percentage=59 elapsed=1m20.811s
-INFO [07-19|11:31:23.294] Generating DAG in progress               epoch=0 percentage=60 elapsed=1m22.193s
-INFO [07-19|11:31:23.949] Updated mining threads                   threads=0
-INFO [07-19|11:31:23.949] Transaction pool price threshold updated price=18000000000
-INFO [07-19|11:31:23.971] Starting mining operation 
-INFO [07-19|11:31:23.972] Commit new mining work                   number=1 txs=0 uncles=0 elapsed=222.433µs
-INFO [07-19|11:31:24.696] Generating DAG in progress               epoch=0 percentage=61 elapsed=1m23.596s
-INFO [07-19|11:31:26.080] Generating DAG in progress               epoch=0 percentage=62 elapsed=1m24.979s
-INFO [07-19|11:31:27.478] Generating DAG in progress               epoch=0 percentage=63 elapsed=1m26.377s
-INFO [07-19|11:31:28.828] Generating DAG in progress               epoch=0 percentage=64 elapsed=1m27.728s
-INFO [07-19|11:31:30.170] Generating DAG in progress               epoch=0 percentage=65 elapsed=1m29.069s
-INFO [07-19|11:31:31.532] Generating DAG in progress               epoch=0 percentage=66 elapsed=1m30.431s
-INFO [07-19|11:31:32.629] Generating DAG in progress               epoch=0 percentage=67 elapsed=1m31.528s
-INFO [07-19|11:31:33.888] Generating DAG in progress               epoch=0 percentage=68 elapsed=1m32.788s
-INFO [07-19|11:31:35.203] Generating DAG in progress               epoch=0 percentage=69 elapsed=1m34.103s
-INFO [07-19|11:31:36.521] Generating DAG in progress               epoch=0 percentage=70 elapsed=1m35.421s
-INFO [07-19|11:31:37.835] Generating DAG in progress               epoch=0 percentage=71 elapsed=1m36.735s
-INFO [07-19|11:31:39.147] Generating DAG in progress               epoch=0 percentage=72 elapsed=1m38.047s
-INFO [07-19|11:31:40.453] Generating DAG in progress               epoch=0 percentage=73 elapsed=1m39.353s
-INFO [07-19|11:31:41.754] Generating DAG in progress               epoch=0 percentage=74 elapsed=1m40.654s
-INFO [07-19|11:31:43.065] Generating DAG in progress               epoch=0 percentage=75 elapsed=1m41.964s
-INFO [07-19|11:31:44.371] Generating DAG in progress               epoch=0 percentage=76 elapsed=1m43.271s
-INFO [07-19|11:31:45.684] Generating DAG in progress               epoch=0 percentage=77 elapsed=1m44.584s
-INFO [07-19|11:31:46.996] Generating DAG in progress               epoch=0 percentage=78 elapsed=1m45.896s
-INFO [07-19|11:31:48.302] Generating DAG in progress               epoch=0 percentage=79 elapsed=1m47.202s
-INFO [07-19|11:31:49.604] Generating DAG in progress               epoch=0 percentage=80 elapsed=1m48.504s
-INFO [07-19|11:31:50.914] Generating DAG in progress               epoch=0 percentage=81 elapsed=1m49.814s
-INFO [07-19|11:31:52.218] Generating DAG in progress               epoch=0 percentage=82 elapsed=1m51.118s
-INFO [07-19|11:31:53.533] Generating DAG in progress               epoch=0 percentage=83 elapsed=1m52.433s
-INFO [07-19|11:31:54.858] Generating DAG in progress               epoch=0 percentage=84 elapsed=1m53.758s
-INFO [07-19|11:31:56.167] Generating DAG in progress               epoch=0 percentage=85 elapsed=1m55.067s
-INFO [07-19|11:31:57.477] Generating DAG in progress               epoch=0 percentage=86 elapsed=1m56.377s
-INFO [07-19|11:31:58.784] Generating DAG in progress               epoch=0 percentage=87 elapsed=1m57.685s
-INFO [07-19|11:32:00.086] Generating DAG in progress               epoch=0 percentage=88 elapsed=1m58.986s
-INFO [07-19|11:32:01.404] Generating DAG in progress               epoch=0 percentage=89 elapsed=2m0.304s
-INFO [07-19|11:32:02.656] Generating DAG in progress               epoch=0 percentage=90 elapsed=2m1.556s
-INFO [07-19|11:32:03.750] Generating DAG in progress               epoch=0 percentage=91 elapsed=2m2.650s
-INFO [07-19|11:32:04.831] Generating DAG in progress               epoch=0 percentage=92 elapsed=2m3.731s
-INFO [07-19|11:32:05.990] Generating DAG in progress               epoch=0 percentage=93 elapsed=2m4.890s
-INFO [07-19|11:32:07.340] Generating DAG in progress               epoch=0 percentage=94 elapsed=2m6.241s
-INFO [07-19|11:32:08.645] Generating DAG in progress               epoch=0 percentage=95 elapsed=2m7.546s
-INFO [07-19|11:32:09.960] Generating DAG in progress               epoch=0 percentage=96 elapsed=2m8.861s
-INFO [07-19|11:32:11.274] Generating DAG in progress               epoch=0 percentage=97 elapsed=2m10.175s
-INFO [07-19|11:32:12.569] Generating DAG in progress               epoch=0 percentage=98 elapsed=2m11.469s
-INFO [07-19|11:32:14.064] Generating DAG in progress               epoch=0 percentage=99 elapsed=2m12.965s
-INFO [07-19|11:32:14.067] Generated ethash verification cache      epoch=0 elapsed=2m12.967s
-INFO [07-19|11:32:16.336] Successfully sealed new block            number=1 hash=7c9414…194519
-INFO [07-19|11:32:16.338] 🔨 mined potential block                  number=1 hash=7c9414…194519
-INFO [07-19|11:32:16.338] Commit new mining work                   number=2 txs=0 uncles=0 elapsed=193.928µs
-INFO [07-19|11:32:17.277] Successfully sealed new block            number=2 hash=c72bfa…483ff0
-INFO [07-19|11:32:17.277] 🔨 mined potential block                  number=2 hash=c72bfa…483ff0
-INFO [07-19|11:32:17.278] Commit new mining work                   number=3 txs=0 uncles=0 elapsed=154.559µs
-INFO [07-19|11:32:19.300] Generating DAG in progress               epoch=1 percentage=0  elapsed=3.460s
-INFO [07-19|11:32:19.450] Successfully sealed new block            number=3 hash=e14748…3ac94f
-INFO [07-19|11:32:19.451] 🔨 mined potential block                  number=3 hash=e14748…3ac94f
-INFO [07-19|11:32:19.451] Commit new mining work                   number=4 txs=0 uncles=0 elapsed=153.163µs
-INFO [07-19|11:32:20.447] Successfully sealed new block            number=4 hash=d0f505…53c1a0
-INFO [07-19|11:32:20.448] 🔨 mined potential block                  number=4 hash=d0f505…53c1a0
-INFO [07-19|11:32:20.449] Commit new mining work                   number=5 txs=0 uncles=0 elapsed=841.186µs
-INFO [07-19|11:32:20.992] Successfully sealed new block            number=5 hash=7fae20…f2e69a
-INFO [07-19|11:32:20.992] 🔨 mined potential block                  number=5 hash=7fae20…f2e69a
-INFO [07-19|11:32:20.993] Commit new mining work                   number=6 txs=0 uncles=0 elapsed=260.769µs
-INFO [07-19|11:32:21.545] Successfully sealed new block            number=6 hash=3869ce…162325
-INFO [07-19|11:32:21.546] 🔗 block reached canonical chain          number=1 hash=7c9414…194519
-INFO [07-19|11:32:21.546] 🔨 mined potential block                  number=6 hash=3869ce…162325
-INFO [07-19|11:32:21.559] Commit new mining work                   number=7 txs=0 uncles=0 elapsed=149.806µs
-INFO [07-19|11:32:22.242] Generating DAG in progress               epoch=1 percentage=1  elapsed=6.402s
-INFO [07-19|11:32:23.325] Successfully sealed new block            number=7 hash=b02f62…2d786f
-INFO [07-19|11:32:23.326] 🔗 block reached canonical chain          number=2 hash=c72bfa…483ff0
-INFO [07-19|11:32:23.326] 🔨 mined potential block                  number=7 hash=b02f62…2d786f
-INFO [07-19|11:32:23.326] Commit new mining work                   number=8 txs=0 uncles=0 elapsed=146.662µs
-INFO [07-19|11:32:23.540] Successfully sealed new block            number=8 hash=dbb2e8…0afdee
-INFO [07-19|11:32:23.540] 🔗 block reached canonical chain          number=3 hash=e14748…3ac94f
-INFO [07-19|11:32:23.541] 🔨 mined potential block                  number=8 hash=dbb2e8…0afdee
-INFO [07-19|11:32:23.541] Commit new mining work                   number=9 txs=0 uncles=0 elapsed=131.717µs
-INFO [07-19|11:32:24.896] Successfully sealed new block            number=9 hash=745162…4d1e19
-INFO [07-19|11:32:24.896] 🔗 block reached canonical chain          number=4 hash=d0f505…53c1a0
-INFO [07-19|11:32:24.896] 🔨 mined potential block                  number=9 hash=745162…4d1e19
-INFO [07-19|11:32:24.896] Commit new mining work                   number=10 txs=0 uncles=0 elapsed=147.403µs
-INFO [07-19|11:32:25.216] Generating DAG in progress               epoch=1 percentage=2  elapsed=9.376s
-INFO [07-19|11:32:27.815] Generating DAG in progress               epoch=1 percentage=3  elapsed=11.975s
-INFO [07-19|11:32:29.185] Generating DAG in progress               epoch=1 percentage=4  elapsed=13.345s
-INFO [07-19|11:32:30.662] Generating DAG in progress               epoch=1 percentage=5  elapsed=14.822s
-INFO [07-19|11:32:32.049] Generating DAG in progress               epoch=1 percentage=6  elapsed=16.209s
-INFO [07-19|11:32:33.413] Generating DAG in progress               epoch=1 percentage=7  elapsed=17.574s
-INFO [07-19|11:32:34.768] Generating DAG in progress               epoch=1 percentage=8  elapsed=18.929s
-INFO [07-19|11:32:36.126] Generating DAG in progress               epoch=1 percentage=9  elapsed=20.286s
-INFO [07-19|11:32:37.306] Generating DAG in progress               epoch=1 percentage=10 elapsed=21.467s
-INFO [07-19|11:32:38.387] Generating DAG in progress               epoch=1 percentage=11 elapsed=22.548s
-INFO [07-19|11:32:39.465] Generating DAG in progress               epoch=1 percentage=12 elapsed=23.626s
-INFO [07-19|11:32:40.543] Generating DAG in progress               epoch=1 percentage=13 elapsed=24.704s
-INFO [07-19|11:32:41.625] Generating DAG in progress               epoch=1 percentage=14 elapsed=25.786s
-INFO [07-19|11:32:42.829] Generating DAG in progress               epoch=1 percentage=15 elapsed=26.990s
-INFO [07-19|11:32:44.171] Generating DAG in progress               epoch=1 percentage=16 elapsed=28.332s
-INFO [07-19|11:32:45.492] Generating DAG in progress               epoch=1 percentage=17 elapsed=29.653s
-INFO [07-19|11:32:46.866] Generating DAG in progress               epoch=1 percentage=18 elapsed=31.027s
-INFO [07-19|11:32:48.254] Generating DAG in progress               epoch=1 percentage=19 elapsed=32.415s
-INFO [07-19|11:32:49.576] Generating DAG in progress               epoch=1 percentage=20 elapsed=33.736s
-INFO [07-19|11:32:50.898] Generating DAG in progress               epoch=1 percentage=21 elapsed=35.059s
-INFO [07-19|11:32:52.198] Generating DAG in progress               epoch=1 percentage=22 elapsed=36.359s
-INFO [07-19|11:32:53.659] Generating DAG in progress               epoch=1 percentage=23 elapsed=37.820s
-INFO [07-19|11:32:55.167] Generating DAG in progress               epoch=1 percentage=24 elapsed=39.328s
-INFO [07-19|11:32:56.449] Generating DAG in progress               epoch=1 percentage=25 elapsed=40.610s
-INFO [07-19|11:32:57.633] Generating DAG in progress               epoch=1 percentage=26 elapsed=41.794s
-INFO [07-19|11:32:58.848] Generating DAG in progress               epoch=1 percentage=27 elapsed=43.009s
-INFO [07-19|11:33:00.059] Generating DAG in progress               epoch=1 percentage=28 elapsed=44.220s
-INFO [07-19|11:33:01.145] Generating DAG in progress               epoch=1 percentage=29 elapsed=45.306s
-INFO [07-19|11:33:02.329] Generating DAG in progress               epoch=1 percentage=30 elapsed=46.490s
-INFO [07-19|11:33:03.655] Generating DAG in progress               epoch=1 percentage=31 elapsed=47.816s
-INFO [07-19|11:33:05.034] Generating DAG in progress               epoch=1 percentage=32 elapsed=49.195s
-INFO [07-19|11:33:06.609] Generating DAG in progress               epoch=1 percentage=33 elapsed=50.770s
-INFO [07-19|11:33:08.027] Generating DAG in progress               epoch=1 percentage=34 elapsed=52.189s
-INFO [07-19|11:33:09.461] Generating DAG in progress               epoch=1 percentage=35 elapsed=53.623s
-INFO [07-19|11:33:10.822] Generating DAG in progress               epoch=1 percentage=36 elapsed=54.983s
-INFO [07-19|11:33:12.230] Generating DAG in progress               epoch=1 percentage=37 elapsed=56.391s
-INFO [07-19|11:33:13.554] Generating DAG in progress               epoch=1 percentage=38 elapsed=57.715s
-INFO [07-19|11:33:14.945] Generating DAG in progress               epoch=1 percentage=39 elapsed=59.107s
-INFO [07-19|11:33:16.315] Generating DAG in progress               epoch=1 percentage=40 elapsed=1m0.476s
-INFO [07-19|11:33:17.765] Generating DAG in progress               epoch=1 percentage=41 elapsed=1m1.927s
-INFO [07-19|11:33:19.268] Generating DAG in progress               epoch=1 percentage=42 elapsed=1m3.429s
-INFO [07-19|11:33:20.755] Generating DAG in progress               epoch=1 percentage=43 elapsed=1m4.917s
-INFO [07-19|11:33:22.372] Generating DAG in progress               epoch=1 percentage=44 elapsed=1m6.534s
-INFO [07-19|11:33:24.030] Generating DAG in progress               epoch=1 percentage=45 elapsed=1m8.192s
-INFO [07-19|11:33:25.557] Generating DAG in progress               epoch=1 percentage=46 elapsed=1m9.719s
-INFO [07-19|11:33:27.006] Generating DAG in progress               epoch=1 percentage=47 elapsed=1m11.167s
-INFO [07-19|11:33:28.470] Generating DAG in progress               epoch=1 percentage=48 elapsed=1m12.632s
-INFO [07-19|11:33:29.917] Generating DAG in progress               epoch=1 percentage=49 elapsed=1m14.079s
-INFO [07-19|11:33:31.489] Generating DAG in progress               epoch=1 percentage=50 elapsed=1m15.651s
-INFO [07-19|11:33:33.259] Generating DAG in progress               epoch=1 percentage=51 elapsed=1m17.421s
-INFO [07-19|11:33:34.917] Generating DAG in progress               epoch=1 percentage=52 elapsed=1m19.079s
-INFO [07-19|11:33:36.435] Generating DAG in progress               epoch=1 percentage=53 elapsed=1m20.597s
-INFO [07-19|11:33:37.974] Generating DAG in progress               epoch=1 percentage=54 elapsed=1m22.135s
-INFO [07-19|11:33:39.424] Generating DAG in progress               epoch=1 percentage=55 elapsed=1m23.586s
-INFO [07-19|11:33:40.946] Generating DAG in progress               epoch=1 percentage=56 elapsed=1m25.108s
-INFO [07-19|11:33:42.884] Generating DAG in progress               epoch=1 percentage=57 elapsed=1m27.046s
-INFO [07-19|11:33:44.548] Generating DAG in progress               epoch=1 percentage=58 elapsed=1m28.710s
-INFO [07-19|11:33:45.998] Generating DAG in progress               epoch=1 percentage=59 elapsed=1m30.160s
-INFO [07-19|11:33:47.413] Generating DAG in progress               epoch=1 percentage=60 elapsed=1m31.575s
-INFO [07-19|11:33:48.835] Generating DAG in progress               epoch=1 percentage=61 elapsed=1m32.997s
-INFO [07-19|11:33:50.476] Generating DAG in progress               epoch=1 percentage=62 elapsed=1m34.639s
-INFO [07-19|11:33:51.802] Generating DAG in progress               epoch=1 percentage=63 elapsed=1m35.964s
-INFO [07-19|11:33:53.240] Generating DAG in progress               epoch=1 percentage=64 elapsed=1m37.402s
-INFO [07-19|11:33:55.166] Generating DAG in progress               epoch=1 percentage=65 elapsed=1m39.328s
-INFO [07-19|11:33:56.500] Generating DAG in progress               epoch=1 percentage=66 elapsed=1m40.662s
-INFO [07-19|11:33:57.729] Generating DAG in progress               epoch=1 percentage=67 elapsed=1m41.891s
-INFO [07-19|11:33:58.947] Generating DAG in progress               epoch=1 percentage=68 elapsed=1m43.109s
-INFO [07-19|11:34:00.113] Generating DAG in progress               epoch=1 percentage=69 elapsed=1m44.276s
-INFO [07-19|11:34:01.593] Generating DAG in progress               epoch=1 percentage=70 elapsed=1m45.755s
-INFO [07-19|11:34:02.899] Generating DAG in progress               epoch=1 percentage=71 elapsed=1m47.061s
-INFO [07-19|11:34:04.187] Generating DAG in progress               epoch=1 percentage=72 elapsed=1m48.349s
-INFO [07-19|11:34:05.472] Generating DAG in progress               epoch=1 percentage=73 elapsed=1m49.635s
-INFO [07-19|11:34:06.805] Generating DAG in progress               epoch=1 percentage=74 elapsed=1m50.968s
-INFO [07-19|11:34:08.097] Generating DAG in progress               epoch=1 percentage=75 elapsed=1m52.260s
-INFO [07-19|11:34:09.396] Generating DAG in progress               epoch=1 percentage=76 elapsed=1m53.559s
-INFO [07-19|11:34:10.764] Generating DAG in progress               epoch=1 percentage=77 elapsed=1m54.926s
-INFO [07-19|11:34:12.360] Generating DAG in progress               epoch=1 percentage=78 elapsed=1m56.523s
-INFO [07-19|11:34:13.693] Generating DAG in progress               epoch=1 percentage=79 elapsed=1m57.855s
-INFO [07-19|11:34:15.058] Generating DAG in progress               epoch=1 percentage=80 elapsed=1m59.221s
-INFO [07-19|11:34:16.408] Generating DAG in progress               epoch=1 percentage=81 elapsed=2m0.571s
-INFO [07-19|11:34:17.805] Generating DAG in progress               epoch=1 percentage=82 elapsed=2m1.968s
-INFO [07-19|11:34:19.102] Generating DAG in progress               epoch=1 percentage=83 elapsed=2m3.265s
-INFO [07-19|11:34:20.541] Generating DAG in progress               epoch=1 percentage=84 elapsed=2m4.703s
-INFO [07-19|11:34:21.846] Generating DAG in progress               epoch=1 percentage=85 elapsed=2m6.009s
-INFO [07-19|11:34:23.178] Generating DAG in progress               epoch=1 percentage=86 elapsed=2m7.341s
-INFO [07-19|11:34:24.496] Generating DAG in progress               epoch=1 percentage=87 elapsed=2m8.659s
-INFO [07-19|11:34:26.030] Generating DAG in progress               epoch=1 percentage=88 elapsed=2m10.193s
-INFO [07-19|11:34:27.391] Generating DAG in progress               epoch=1 percentage=89 elapsed=2m11.554s
-INFO [07-19|11:34:28.706] Generating DAG in progress               epoch=1 percentage=90 elapsed=2m12.869s
-INFO [07-19|11:34:30.042] Generating DAG in progress               epoch=1 percentage=91 elapsed=2m14.205s
-INFO [07-19|11:34:31.362] Generating DAG in progress               epoch=1 percentage=92 elapsed=2m15.525s
-INFO [07-19|11:34:32.696] Generating DAG in progress               epoch=1 percentage=93 elapsed=2m16.859s
-INFO [07-19|11:34:34.018] Generating DAG in progress               epoch=1 percentage=94 elapsed=2m18.181s
-INFO [07-19|11:34:35.348] Generating DAG in progress               epoch=1 percentage=95 elapsed=2m19.511s
-INFO [07-19|11:34:36.857] Generating DAG in progress               epoch=1 percentage=96 elapsed=2m21.020s
-INFO [07-19|11:34:38.279] Generating DAG in progress               epoch=1 percentage=97 elapsed=2m22.443s
-INFO [07-19|11:34:39.615] Generating DAG in progress               epoch=1 percentage=98 elapsed=2m23.778s
-INFO [07-19|11:34:41.395] Generating DAG in progress               epoch=1 percentage=99 elapsed=2m25.558s
-INFO [07-19|11:34:41.397] Generated ethash verification cache      epoch=1 elapsed=2m25.561s
-INFO [07-19|11:44:48.505] IPC endpoint closed                      endpoint=/Users/twells012/Projects/my-eth-chain/myDataDir/geth.ipc
-INFO [07-19|11:44:48.506] Writing cached state to disk             block=9 hash=745162…4d1e19 root=3f6ab4…9e5492
-INFO [07-19|11:44:48.506] Persisted trie from memory database      nodes=2 size=295.00B time=616.891µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=17 livesize=2.35kB
-INFO [07-19|11:44:48.506] Writing cached state to disk             block=8 hash=dbb2e8…0afdee root=df57eb…e63d1a
-INFO [07-19|11:44:48.507] Persisted trie from memory database      nodes=2 size=295.00B time=97.645µs  gcnodes=0 gcsize=0.00B gctime=0s livenodes=15 livesize=2.06kB
-INFO [07-19|11:44:48.507] Blockchain manager stopped 
-INFO [07-19|11:44:48.507] Stopping Ethereum protocol 
-INFO [07-19|11:44:48.507] Ethereum protocol stopped 
-INFO [07-19|11:44:48.507] Transaction pool stopped 
-INFO [07-19|11:44:48.509] Database closed                          database=/Users/twells012/Projects/my-eth-chain/myDataDir/geth/chaindata
-INFO [07-19|11:45:37.864] Maximum peer count                       ETH=25 LES=0 total=25
-INFO [07-19|11:45:37.876] Starting peer-to-peer node               instance=Geth/v1.8.12-stable/darwin-amd64/go1.10.3
-INFO [07-19|11:45:37.876] Allocated cache and file handles         database=/Users/twells012/Library/Ethereum/geth/chaindata cache=768 handles=1024
-INFO [07-19|11:45:37.890] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: <nil> Engine: ethash}"
-INFO [07-19|11:45:37.890] Disk storage enabled for ethash caches   dir=/Users/twells012/Library/Ethereum/geth/ethash count=3
-INFO [07-19|11:45:37.890] Disk storage enabled for ethash DAGs     dir=/Users/twells012/.ethash                      count=2
-INFO [07-19|11:45:37.890] Initialising Ethereum protocol           versions="[63 62]" network=1
-INFO [07-19|11:45:37.891] Loaded most recent local header          number=0 hash=d4e567…cb8fa3 td=17179869184
-INFO [07-19|11:45:37.891] Loaded most recent local full block      number=0 hash=d4e567…cb8fa3 td=17179869184
-INFO [07-19|11:45:37.891] Loaded most recent local fast block      number=0 hash=d4e567…cb8fa3 td=17179869184
-INFO [07-19|11:45:37.891] Loaded local transaction journal         transactions=0 dropped=0
-INFO [07-19|11:45:37.892] Regenerated local transaction journal    transactions=0 accounts=0
-INFO [07-19|11:45:37.894] Starting P2P networking 
-INFO [07-19|11:45:40.010] UDP listener up                          self=enode://cafa7a6caa052954a3be5fbd6973aa21141ae9416a5aeece25b256def7b0e74d36748ccf7996610198aec9b0cfc81e983a7762e7910cebadd3c0d71e19a307a2@[::]:30303
-INFO [07-19|11:45:40.011] RLPx listener up                         self=enode://cafa7a6caa052954a3be5fbd6973aa21141ae9416a5aeece25b256def7b0e74d36748ccf7996610198aec9b0cfc81e983a7762e7910cebadd3c0d71e19a307a2@[::]:30303
-INFO [07-19|11:45:40.013] IPC endpoint opened                      url=/Users/twells012/Library/Ethereum/geth.ipc
-INFO [07-19|11:45:40.016] HTTP endpoint opened                     url=http://localhost:8545                      cors=http://localhost:8000 vhosts=localhost
-INFO [07-19|11:46:30.051] Etherbase automatically configured       address=0x2F4Adad234f3d7F1BAC9A9EbB2e6d6C6757657a3
-INFO [07-19|11:46:55.002] Updated mining threads                   threads=0
-INFO [07-19|11:46:55.002] Transaction pool price threshold updated price=18000000000
-INFO [07-19|11:46:55.002] Starting mining operation 
-INFO [07-19|11:46:55.003] Commit new mining work                   number=1 txs=0 uncles=0 elapsed=508.793µs
-INFO [07-19|11:47:12.596] Updated mining threads                   threads=0
-INFO [07-19|11:47:12.596] Transaction pool price threshold updated price=18000000000
-INFO [07-19|11:47:12.596] Starting mining operation 
-INFO [07-19|11:47:12.597] Commit new mining work                   number=1 txs=0 uncles=0 elapsed=458.798µs
-INFO [07-19|11:53:52.285] HTTP endpoint closed                     url=http://localhost:8545
-INFO [07-19|11:53:52.285] IPC endpoint closed                      endpoint=/Users/twells012/Library/Ethereum/geth.ipc
-INFO [07-19|11:53:52.285] Blockchain manager stopped 
-INFO [07-19|11:53:52.286] Stopping Ethereum protocol 
-INFO [07-19|11:53:52.286] Ethereum protocol stopped 
-INFO [07-19|11:53:52.286] Transaction pool stopped 
-INFO [07-19|11:53:52.287] Database closed                          database=/Users/twells012/Library/Ethereum/geth/chaindata
-INFO [07-19|11:54:07.439] Maximum peer count                       ETH=25 LES=0 total=25
-INFO [07-19|11:54:07.449] Starting peer-to-peer node               instance=Geth/v1.8.12-stable/darwin-amd64/go1.10.3
-INFO [07-19|11:54:07.449] Allocated cache and file handles         database=/Users/twells012/Library/Ethereum/geth/chaindata cache=768 handles=1024
-INFO [07-19|11:54:07.462] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: <nil> Engine: ethash}"
-INFO [07-19|11:54:07.462] Disk storage enabled for ethash caches   dir=/Users/twells012/Library/Ethereum/geth/ethash count=3
-INFO [07-19|11:54:07.462] Disk storage enabled for ethash DAGs     dir=/Users/twells012/.ethash                      count=2
-INFO [07-19|11:54:07.462] Initialising Ethereum protocol           versions="[63 62]" network=1
-INFO [07-19|11:54:07.463] Loaded most recent local header          number=0 hash=d4e567…cb8fa3 td=17179869184
-INFO [07-19|11:54:07.463] Loaded most recent local full block      number=0 hash=d4e567…cb8fa3 td=17179869184
-INFO [07-19|11:54:07.463] Loaded most recent local fast block      number=0 hash=d4e567…cb8fa3 td=17179869184
-INFO [07-19|11:54:07.463] Loaded local transaction journal         transactions=0 dropped=0
-INFO [07-19|11:54:07.463] Regenerated local transaction journal    transactions=0 accounts=0
-INFO [07-19|11:54:07.464] Starting P2P networking 
-INFO [07-19|11:54:09.616] UDP listener up                          self=enode://cafa7a6caa052954a3be5fbd6973aa21141ae9416a5aeece25b256def7b0e74d36748ccf7996610198aec9b0cfc81e983a7762e7910cebadd3c0d71e19a307a2@[::]:30303
-INFO [07-19|11:54:09.616] RLPx listener up                         self=enode://cafa7a6caa052954a3be5fbd6973aa21141ae9416a5aeece25b256def7b0e74d36748ccf7996610198aec9b0cfc81e983a7762e7910cebadd3c0d71e19a307a2@[::]:30303
-INFO [07-19|11:54:09.618] IPC endpoint opened                      url=/Users/twells012/Library/Ethereum/geth.ipc
-INFO [07-19|11:54:09.618] HTTP endpoint opened                     url=http://127.0.0.1:8545                      cors=http://localhost:8000 vhosts=localhost
-INFO [07-19|11:54:09.700] Etherbase automatically configured       address=0x2F4Adad234f3d7F1BAC9A9EbB2e6d6C6757657a3
-INFO [07-19|11:54:50.225] Updated mining threads                   threads=0
-INFO [07-19|11:54:50.225] Transaction pool price threshold updated price=18000000000
-INFO [07-19|11:54:50.225] Starting mining operation 
-INFO [07-19|11:54:50.226] Commit new mining work                   number=1 txs=0 uncles=0 elapsed=622.831µs
-INFO [07-19|11:55:09.132] HTTP endpoint closed                     url=http://127.0.0.1:8545
-INFO [07-19|11:55:09.132] IPC endpoint closed                      endpoint=/Users/twells012/Library/Ethereum/geth.ipc
-INFO [07-19|11:55:09.132] Blockchain manager stopped 
-INFO [07-19|11:55:09.132] Stopping Ethereum protocol 
-INFO [07-19|11:55:09.132] Ethereum protocol stopped 
-INFO [07-19|11:55:09.132] Transaction pool stopped 
-INFO [07-19|11:55:09.133] Database closed                          database=/Users/twells012/Library/Ethereum/geth/chaindata
-INFO [07-19|11:56:36.820] Maximum peer count                       ETH=25 LES=0 total=25
-INFO [07-19|11:56:36.831] Starting peer-to-peer node               instance=Geth/v1.8.12-stable/darwin-amd64/go1.10.3
-INFO [07-19|11:56:36.832] Allocated cache and file handles         database=/Users/twells012/Projects/my-eth-chain/myDataDir/geth/chaindata cache=768 handles=1024
-INFO [07-19|11:56:36.846] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
-INFO [07-19|11:56:36.846] Disk storage enabled for ethash caches   dir=/Users/twells012/Projects/my-eth-chain/myDataDir/geth/ethash count=3
-INFO [07-19|11:56:36.846] Disk storage enabled for ethash DAGs     dir=/Users/twells012/.ethash                                     count=2
-INFO [07-19|11:56:36.846] Initialising Ethereum protocol           versions="[63 62]" network=1114
-INFO [07-19|11:56:36.847] Loaded most recent local header          number=9 hash=745162…4d1e19 td=1181840
-INFO [07-19|11:56:36.847] Loaded most recent local full block      number=9 hash=745162…4d1e19 td=1181840
-INFO [07-19|11:56:36.847] Loaded most recent local fast block      number=9 hash=745162…4d1e19 td=1181840
-INFO [07-19|11:56:36.847] Loaded local transaction journal         transactions=0 dropped=0
-INFO [07-19|11:56:36.848] Regenerated local transaction journal    transactions=0 accounts=0
-WARN [07-19|11:56:36.848] Blockchain not empty, fast sync disabled 
-INFO [07-19|11:56:36.848] Starting P2P networking 
-INFO [07-19|11:56:38.973] UDP listener up                          self=enode://e786df9f229dc518da5a282bf192bfbc79438ec0960ce1e08a756304646b9d66166f56453ef84a6f9f839d99149e5a961985266bb22af3d198852f3926c06ae2@[::]:30303
-INFO [07-19|11:56:38.973] RLPx listener up                         self=enode://e786df9f229dc518da5a282bf192bfbc79438ec0960ce1e08a756304646b9d66166f56453ef84a6f9f839d99149e5a961985266bb22af3d198852f3926c06ae2@[::]:30303
-INFO [07-19|11:56:38.975] IPC endpoint opened                      url=/Users/twells012/Projects/my-eth-chain/myDataDir/geth.ipc
-INFO [07-19|11:56:38.975] HTTP endpoint opened                     url=http://127.0.0.1:8545                                     cors=http://localhost:8000 vhosts=localhost
-INFO [07-19|11:56:39.054] Etherbase automatically configured       address=0x8c995488293075889cef09b37F00C9338d082981
-INFO [07-19|11:57:36.967] Updated mining threads                   threads=0
-INFO [07-19|11:57:36.967] Transaction pool price threshold updated price=18000000000
-INFO [07-19|11:57:36.967] Starting mining operation 
-INFO [07-19|11:57:36.968] Commit new mining work                   number=10 txs=0 uncles=0 elapsed=449.729µs
-INFO [07-19|11:57:36.981] Successfully sealed new block            number=10 hash=ac71b9…dadfa0
-INFO [07-19|11:57:36.983] 🔨 mined potential block                  number=10 hash=ac71b9…dadfa0
-INFO [07-19|11:57:36.983] Commit new mining work                   number=11 txs=0 uncles=0 elapsed=230.913µs
-INFO [07-19|11:57:37.956] Successfully sealed new block            number=11 hash=400af5…d25f65
-INFO [07-19|11:57:37.957] 🔨 mined potential block                  number=11 hash=400af5…d25f65
-INFO [07-19|11:57:37.957] Commit new mining work                   number=12 txs=0 uncles=0 elapsed=145.078µs
-INFO [07-19|11:57:38.631] Successfully sealed new block            number=12 hash=1079ca…d4aa60
-INFO [07-19|11:57:38.632] 🔨 mined potential block                  number=12 hash=1079ca…d4aa60
-INFO [07-19|11:57:38.632] Commit new mining work                   number=13 txs=0 uncles=0 elapsed=162.135µs
-INFO [07-19|11:57:38.878] Successfully sealed new block            number=13 hash=439235…5efd32
-INFO [07-19|11:57:38.878] 🔨 mined potential block                  number=13 hash=439235…5efd32
-INFO [07-19|11:57:38.878] Mining too far in the future             wait=2s
-INFO [07-19|11:57:40.879] Commit new mining work                   number=14 txs=0 uncles=0 elapsed=2.000s
-INFO [07-19|12:56:36.877] Regenerated local transaction journal    transactions=0 accounts=0
-INFO [07-19|13:56:29.821] HTTP endpoint closed                     url=http://127.0.0.1:8545
-INFO [07-19|13:56:29.822] IPC endpoint closed                      endpoint=/Users/twells012/Projects/my-eth-chain/myDataDir/geth.ipc
-INFO [07-19|13:56:29.824] Writing cached state to disk             block=13 hash=439235…5efd32 root=fcbf2a…200f2b
-INFO [07-19|13:56:29.824] Persisted trie from memory database      nodes=2 size=295.00B time=429.109µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=7 livesize=885.00B
-INFO [07-19|13:56:29.825] Writing cached state to disk             block=12 hash=1079ca…d4aa60 root=a2b872…7ec2fc
-INFO [07-19|13:56:29.825] Persisted trie from memory database      nodes=2 size=295.00B time=47.86µs   gcnodes=0 gcsize=0.00B gctime=0s livenodes=5 livesize=590.00B
-INFO [07-19|13:56:29.825] Blockchain manager stopped 
-INFO [07-19|13:56:29.825] Stopping Ethereum protocol 
-INFO [07-19|13:56:29.825] Ethereum protocol stopped 
-INFO [07-19|13:56:29.825] Transaction pool stopped 
-INFO [07-19|13:56:29.826] Database closed                          database=/Users/twells012/Projects/my-eth-chain/myDataDir/geth/chaindata
-INFO [07-19|14:02:14.814] Maximum peer count                       ETH=25 LES=0 total=25
-INFO [07-19|14:02:14.825] Starting peer-to-peer node               instance=Geth/v1.8.12-stable/darwin-amd64/go1.10.3
-INFO [07-19|14:02:14.825] Allocated cache and file handles         database=/Users/twells012/Projects/my-eth-chain/myDataDir/geth/chaindata cache=768 handles=1024
-INFO [07-19|14:02:14.836] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
-INFO [07-19|14:02:14.836] Disk storage enabled for ethash caches   dir=/Users/twells012/Projects/my-eth-chain/myDataDir/geth/ethash count=3
-INFO [07-19|14:02:14.836] Disk storage enabled for ethash DAGs     dir=/Users/twells012/.ethash                                     count=2
-INFO [07-19|14:02:14.836] Initialising Ethereum protocol           versions="[63 62]" network=1114
-INFO [07-19|14:02:14.837] Loaded most recent local header          number=13 hash=439235…5efd32 td=1706512
-INFO [07-19|14:02:14.837] Loaded most recent local full block      number=13 hash=439235…5efd32 td=1706512
-INFO [07-19|14:02:14.837] Loaded most recent local fast block      number=13 hash=439235…5efd32 td=1706512
-INFO [07-19|14:02:14.837] Loaded local transaction journal         transactions=0 dropped=0
-INFO [07-19|14:02:14.838] Regenerated local transaction journal    transactions=0 accounts=0
-WARN [07-19|14:02:14.838] Blockchain not empty, fast sync disabled 
-INFO [07-19|14:02:14.839] Starting P2P networking 
-INFO [07-19|14:02:17.041] UDP listener up                          self=enode://e786df9f229dc518da5a282bf192bfbc79438ec0960ce1e08a756304646b9d66166f56453ef84a6f9f839d99149e5a961985266bb22af3d198852f3926c06ae2@[::]:30303
-INFO [07-19|14:02:17.041] RLPx listener up                         self=enode://e786df9f229dc518da5a282bf192bfbc79438ec0960ce1e08a756304646b9d66166f56453ef84a6f9f839d99149e5a961985266bb22af3d198852f3926c06ae2@[::]:30303
-INFO [07-19|14:02:17.043] IPC endpoint opened                      url=/Users/twells012/Projects/my-eth-chain/myDataDir/geth.ipc
-INFO [07-19|14:02:17.044] HTTP endpoint opened                     url=http://127.0.0.1:8545                                     cors=http://localhost:8000 vhosts=localhost
-INFO [07-19|14:02:17.120] Etherbase automatically configured       address=0x8c995488293075889cef09b37F00C9338d082981
-INFO [07-19|14:03:31.124] Updated mining threads                   threads=0
-INFO [07-19|14:03:31.124] Transaction pool price threshold updated price=18000000000
-INFO [07-19|14:03:31.125] Starting mining operation 
-INFO [07-19|14:03:31.125] Commit new mining work                   number=14 txs=0 uncles=0 elapsed=514.399µs
-INFO [07-19|14:03:31.496] Successfully sealed new block            number=14 hash=cd612c…9f038b
-INFO [07-19|14:03:31.497] 🔨 mined potential block                  number=14 hash=cd612c…9f038b
-INFO [07-19|14:03:31.497] Commit new mining work                   number=15 txs=0 uncles=0 elapsed=115.73µs
-INFO [07-19|14:03:31.882] Successfully sealed new block            number=15 hash=a2afad…099b26
-INFO [07-19|14:03:31.882] 🔨 mined potential block                  number=15 hash=a2afad…099b26
-INFO [07-19|14:03:31.882] Mining too far in the future             wait=2s
-INFO [07-19|14:03:33.886] Commit new mining work                   number=16 txs=0 uncles=0 elapsed=2.003s
-INFO [07-19|14:03:33.989] Successfully sealed new block            number=16 hash=525858…226ca2
-INFO [07-19|14:03:33.989] 🔨 mined potential block                  number=16 hash=525858…226ca2
-INFO [07-19|14:03:33.989] Commit new mining work                   number=17 txs=0 uncles=0 elapsed=129.832µs
-INFO [07-19|14:03:34.191] Successfully sealed new block            number=17 hash=0c4419…0bf8b4
-INFO [07-19|14:03:34.192] 🔨 mined potential block                  number=17 hash=0c4419…0bf8b4
-INFO [07-19|14:03:34.192] Commit new mining work                   number=18 txs=0 uncles=0 elapsed=129.854µs
-INFO [07-19|14:08:29.251] HTTP endpoint closed                     url=http://127.0.0.1:8545
-INFO [07-19|14:08:29.252] IPC endpoint closed                      endpoint=/Users/twells012/Projects/my-eth-chain/myDataDir/geth.ipc
-INFO [07-19|14:08:29.252] Writing cached state to disk             block=17 hash=0c4419…0bf8b4 root=7342bb…71bfc2
-INFO [07-19|14:08:29.253] Persisted trie from memory database      nodes=2 size=295.00B time=524.308µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=7 livesize=885.00B
-INFO [07-19|14:08:29.253] Writing cached state to disk             block=16 hash=525858…226ca2 root=3359c9…bddf57
-INFO [07-19|14:08:29.253] Persisted trie from memory database      nodes=2 size=295.00B time=85.634µs  gcnodes=0 gcsize=0.00B gctime=0s livenodes=5 livesize=590.00B
-INFO [07-19|14:08:29.253] Blockchain manager stopped 
-INFO [07-19|14:08:29.253] Stopping Ethereum protocol 
-INFO [07-19|14:08:29.253] Ethereum protocol stopped 
-INFO [07-19|14:08:29.254] Transaction pool stopped 
-INFO [07-19|14:08:29.256] Database closed                          database=/Users/twells012/Projects/my-eth-chain/myDataDir/geth/chaindata
-INFO [07-19|14:09:20.126] Maximum peer count                       ETH=25 LES=0 total=25
-INFO [07-19|14:09:20.137] Starting peer-to-peer node               instance=Geth/v1.8.12-stable/darwin-amd64/go1.10.3
-INFO [07-19|14:09:20.137] Allocated cache and file handles         database=/Users/twells012/Projects/my-eth-chain/myDataDir/geth/chaindata cache=768 handles=1024
-INFO [07-19|14:09:20.150] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
-INFO [07-19|14:09:20.150] Disk storage enabled for ethash caches   dir=/Users/twells012/Projects/my-eth-chain/myDataDir/geth/ethash count=3
-INFO [07-19|14:09:20.150] Disk storage enabled for ethash DAGs     dir=/Users/twells012/.ethash                                     count=2
-INFO [07-19|14:09:20.150] Initialising Ethereum protocol           versions="[63 62]" network=1114
-INFO [07-19|14:09:20.151] Loaded most recent local header          number=17 hash=0c4419…0bf8b4 td=2231184
-INFO [07-19|14:09:20.151] Loaded most recent local full block      number=17 hash=0c4419…0bf8b4 td=2231184
-INFO [07-19|14:09:20.151] Loaded most recent local fast block      number=17 hash=0c4419…0bf8b4 td=2231184
-INFO [07-19|14:09:20.151] Loaded local transaction journal         transactions=0 dropped=0
-INFO [07-19|14:09:20.151] Regenerated local transaction journal    transactions=0 accounts=0
-WARN [07-19|14:09:20.151] Blockchain not empty, fast sync disabled 
-INFO [07-19|14:09:20.152] Starting P2P networking 
-INFO [07-19|14:09:22.283] UDP listener up                          self=enode://e786df9f229dc518da5a282bf192bfbc79438ec0960ce1e08a756304646b9d66166f56453ef84a6f9f839d99149e5a961985266bb22af3d198852f3926c06ae2@[::]:30303
-INFO [07-19|14:09:22.283] RLPx listener up                         self=enode://e786df9f229dc518da5a282bf192bfbc79438ec0960ce1e08a756304646b9d66166f56453ef84a6f9f839d99149e5a961985266bb22af3d198852f3926c06ae2@[::]:30303
-INFO [07-19|14:09:22.286] IPC endpoint opened                      url=/Users/twells012/Projects/my-eth-chain/myDataDir/geth.ipc
-INFO [07-19|14:09:22.286] HTTP endpoint opened                     url=http://127.0.0.1:8545                                     cors=http://localhost:8000 vhosts=localhost
-INFO [07-19|14:09:22.374] Etherbase automatically configured       address=0x8c995488293075889cef09b37F00C9338d082981
-INFO [07-19|14:10:26.002] Updated mining threads                   threads=0
-INFO [07-19|14:10:26.002] Transaction pool price threshold updated price=18000000000
-INFO [07-19|14:10:26.002] Starting mining operation 
-INFO [07-19|14:10:26.002] Commit new mining work                   number=18 txs=0 uncles=0 elapsed=316.927µs
-INFO [07-19|14:10:26.366] Successfully sealed new block            number=18 hash=b15278…7af81b
-INFO [07-19|14:10:26.366] 🔨 mined potential block                  number=18 hash=b15278…7af81b
-INFO [07-19|14:10:26.367] Commit new mining work                   number=19 txs=0 uncles=0 elapsed=234.238µs
-INFO [07-19|14:10:26.849] Successfully sealed new block            number=19 hash=7f5cfc…e14978
-INFO [07-19|14:10:26.849] 🔨 mined potential block                  number=19 hash=7f5cfc…e14978
-INFO [07-19|14:10:26.850] Mining too far in the future             wait=2s
-INFO [07-19|14:10:28.852] Commit new mining work                   number=20 txs=0 uncles=0 elapsed=2.002s
+INFO [07-23|11:31:21.011] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [07-23|11:31:21.024] Starting peer-to-peer node               instance=Geth/v1.8.12-stable/darwin-amd64/go1.10.3
+INFO [07-23|11:31:21.024] Allocated cache and file handles         database=/Users/twells012/Projects/my-eth-chain/myDataDir/geth/chaindata cache=768 handles=1024
+INFO [07-23|11:31:21.193] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
+INFO [07-23|11:31:21.193] Disk storage enabled for ethash caches   dir=/Users/twells012/Projects/my-eth-chain/myDataDir/geth/ethash count=3
+INFO [07-23|11:31:21.193] Disk storage enabled for ethash DAGs     dir=/Users/twells012/.ethash                                     count=2
+INFO [07-23|11:31:21.193] Initialising Ethereum protocol           versions="[63 62]" network=1994
+INFO [07-23|11:31:21.194] Loaded most recent local header          number=0 hash=adbe46…e62db2 td=400
+INFO [07-23|11:31:21.194] Loaded most recent local full block      number=0 hash=adbe46…e62db2 td=400
+INFO [07-23|11:31:21.194] Loaded most recent local fast block      number=0 hash=adbe46…e62db2 td=400
+INFO [07-23|11:31:21.194] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [07-23|11:31:21.194] Starting P2P networking 
+INFO [07-23|11:31:23.309] UDP listener up                          self=enode://155716cfe481cb55443dda076c101d12349c8c2798511c069c695794cf64e581479ee1d7fe26d34372b1d1f202e927174d04aa5d3ac5afb7001f1d30e7d7e75f@[::]:30303
+INFO [07-23|11:31:23.309] RLPx listener up                         self=enode://155716cfe481cb55443dda076c101d12349c8c2798511c069c695794cf64e581479ee1d7fe26d34372b1d1f202e927174d04aa5d3ac5afb7001f1d30e7d7e75f@[::]:30303
+INFO [07-23|11:31:23.312] IPC endpoint opened                      url=/Users/twells012/Projects/my-eth-chain/myDataDir/geth.ipc
+INFO [07-23|11:31:23.312] HTTP endpoint opened                     url=http://127.0.0.1:8545                                     cors=http://localhost:8000 vhosts=localhost
+INFO [07-23|11:31:49.546] Etherbase automatically configured       address=0x1d69B14354969E21f85851213893ba78BAFe5d9e
+INFO [07-23|11:32:02.887] Updated mining threads                   threads=0
+INFO [07-23|11:32:02.887] Transaction pool price threshold updated price=18000000000
+INFO [07-23|11:32:02.887] Starting mining operation 
+INFO [07-23|11:32:02.887] Commit new mining work                   number=1 txs=0 uncles=0 elapsed=114.177µs
+INFO [07-23|11:32:29.943] Successfully sealed new block            number=1 hash=71ee47…3a4cec
+INFO [07-23|11:32:29.953] 🔨 mined potential block                  number=1 hash=71ee47…3a4cec
+INFO [07-23|11:32:29.959] Commit new mining work                   number=2 txs=0 uncles=0 elapsed=6.574ms
+INFO [07-23|11:32:31.400] Successfully sealed new block            number=2 hash=e588cd…745502
+INFO [07-23|11:32:31.400] 🔨 mined potential block                  number=2 hash=e588cd…745502
+INFO [07-23|11:32:31.401] Commit new mining work                   number=3 txs=0 uncles=0 elapsed=260.602µs
+INFO [07-23|11:32:32.065] Successfully sealed new block            number=3 hash=26464a…cb960b
+INFO [07-23|11:32:32.065] 🔨 mined potential block                  number=3 hash=26464a…cb960b
+INFO [07-23|11:32:32.065] Commit new mining work                   number=4 txs=0 uncles=0 elapsed=218.445µs
+INFO [07-23|11:32:33.014] Successfully sealed new block            number=4 hash=5ce8ca…5bfdd5
+INFO [07-23|11:32:33.015] 🔨 mined potential block                  number=4 hash=5ce8ca…5bfdd5
+INFO [07-23|11:32:33.016] Commit new mining work                   number=5 txs=0 uncles=0 elapsed=962.003µs
+INFO [07-23|11:32:33.346] Successfully sealed new block            number=5 hash=55871d…9b67c3
+INFO [07-23|11:32:33.347] 🔨 mined potential block                  number=5 hash=55871d…9b67c3
+INFO [07-23|11:32:33.347] Commit new mining work                   number=6 txs=0 uncles=0 elapsed=159.414µs
+INFO [07-23|11:32:33.569] Successfully sealed new block            number=6 hash=0d2d98…f8303c
+INFO [07-23|11:32:33.569] 🔗 block reached canonical chain          number=1 hash=71ee47…3a4cec
+INFO [07-23|11:32:33.569] 🔨 mined potential block                  number=6 hash=0d2d98…f8303c
+INFO [07-23|11:32:33.569] Mining too far in the future             wait=2s
+INFO [07-23|11:32:35.573] Commit new mining work                   number=7 txs=0 uncles=0 elapsed=2.003s
+INFO [07-23|11:32:35.582] Successfully sealed new block            number=7 hash=7111e4…6257a1
+INFO [07-23|11:32:35.582] 🔗 block reached canonical chain          number=2 hash=e588cd…745502
+INFO [07-23|11:32:35.583] 🔨 mined potential block                  number=7 hash=7111e4…6257a1
+INFO [07-23|11:32:35.583] Commit new mining work                   number=8 txs=0 uncles=0 elapsed=111.878µs
+INFO [07-23|11:32:35.667] Successfully sealed new block            number=8 hash=c9a242…e4ccf1
+INFO [07-23|11:32:35.668] Mining too far in the future             wait=2s
+INFO [07-23|11:32:35.668] 🔗 block reached canonical chain          number=3 hash=26464a…cb960b
+INFO [07-23|11:32:35.668] 🔨 mined potential block                  number=8 hash=c9a242…e4ccf1
+INFO [07-23|11:32:37.668] Commit new mining work                   number=9 txs=0 uncles=0 elapsed=2.000s
+INFO [07-23|11:32:38.223] Successfully sealed new block            number=9 hash=5d7170…a7e85b
+INFO [07-23|11:32:38.225] 🔗 block reached canonical chain          number=4 hash=5ce8ca…5bfdd5
+INFO [07-23|11:32:38.225] 🔨 mined potential block                  number=9 hash=5d7170…a7e85b
+INFO [07-23|11:32:38.225] Commit new mining work                   number=10 txs=0 uncles=0 elapsed=185.538µs
+INFO [07-23|11:32:38.295] Successfully sealed new block            number=10 hash=7228a3…d90ef9
+INFO [07-23|11:32:38.296] 🔗 block reached canonical chain          number=5  hash=55871d…9b67c3
+INFO [07-23|11:32:38.296] 🔨 mined potential block                  number=10 hash=7228a3…d90ef9
+INFO [07-23|11:32:38.296] Commit new mining work                   number=11 txs=0 uncles=0 elapsed=132.035µs
+INFO [07-23|11:32:39.174] Successfully sealed new block            number=11 hash=a67a8a…cc3768
+INFO [07-23|11:32:39.175] 🔗 block reached canonical chain          number=6  hash=0d2d98…f8303c
+INFO [07-23|11:32:39.175] 🔨 mined potential block                  number=11 hash=a67a8a…cc3768
+INFO [07-23|11:32:39.175] Commit new mining work                   number=12 txs=0 uncles=0 elapsed=237.287µs
+INFO [07-23|11:32:39.256] Successfully sealed new block            number=12 hash=bf2e5f…f9a80f
+INFO [07-23|11:32:39.256] 🔗 block reached canonical chain          number=7  hash=7111e4…6257a1
+INFO [07-23|11:32:39.257] 🔨 mined potential block                  number=12 hash=bf2e5f…f9a80f
+INFO [07-23|11:32:39.257] Mining too far in the future             wait=2s
+INFO [07-23|11:32:41.261] Commit new mining work                   number=13 txs=0 uncles=0 elapsed=2.004s
+INFO [07-23|11:32:41.435] Successfully sealed new block            number=13 hash=898d01…fb0ce2
+INFO [07-23|11:32:41.435] 🔗 block reached canonical chain          number=8  hash=c9a242…e4ccf1
+INFO [07-23|11:32:41.435] 🔨 mined potential block                  number=13 hash=898d01…fb0ce2
+INFO [07-23|11:32:41.435] Commit new mining work                   number=14 txs=0 uncles=0 elapsed=143.127µs
+INFO [07-23|11:32:42.972] Successfully sealed new block            number=14 hash=1312e9…3f1cf0
+INFO [07-23|11:32:42.974] 🔗 block reached canonical chain          number=9  hash=5d7170…a7e85b
+INFO [07-23|11:32:42.974] 🔨 mined potential block                  number=14 hash=1312e9…3f1cf0
+INFO [07-23|11:32:42.974] Commit new mining work                   number=15 txs=0 uncles=0 elapsed=163.469µs
+INFO [07-23|11:32:43.701] Successfully sealed new block            number=15 hash=ff5b43…80a697
+INFO [07-23|11:32:43.702] 🔗 block reached canonical chain          number=10 hash=7228a3…d90ef9
+INFO [07-23|11:32:43.702] 🔨 mined potential block                  number=15 hash=ff5b43…80a697
+INFO [07-23|11:32:43.702] Commit new mining work                   number=16 txs=0 uncles=0 elapsed=98.507µs
+INFO [07-23|11:32:46.643] Successfully sealed new block            number=16 hash=9b5bea…2dec42
+INFO [07-23|11:32:46.644] 🔗 block reached canonical chain          number=11 hash=a67a8a…cc3768
+INFO [07-23|11:32:46.644] 🔨 mined potential block                  number=16 hash=9b5bea…2dec42
+INFO [07-23|11:32:46.644] Commit new mining work                   number=17 txs=0 uncles=0 elapsed=172.615µs
+INFO [07-23|11:33:25.080] Submitted contract creation              fullhash=0x1d10fa560715427cde68c6cddd31db9d87ac6569761a8d8c4c3b0516d230ae43 contract=0x9FcB6B00abf9C25A4efC277AF9E360154A3a7559
+INFO [07-23|11:33:32.024] Updated mining threads                   threads=0
+INFO [07-23|11:33:32.024] Transaction pool price threshold updated price=18000000000
+INFO [07-23|11:33:32.024] Starting mining operation 
+INFO [07-23|11:33:32.024] Commit new mining work                   number=17 txs=1 uncles=0 elapsed=384.86µs
+INFO [07-23|11:33:32.227] Successfully sealed new block            number=17 hash=d9b175…63e748
+INFO [07-23|11:33:32.229] 🔗 block reached canonical chain          number=12 hash=bf2e5f…f9a80f
+INFO [07-23|11:33:32.229] 🔨 mined potential block                  number=17 hash=d9b175…63e748
+INFO [07-23|11:33:32.229] Commit new mining work                   number=18 txs=0 uncles=0 elapsed=133.268µs
+INFO [07-23|11:33:32.440] Successfully sealed new block            number=18 hash=7119e0…5d056c
+INFO [07-23|11:33:32.441] 🔗 block reached canonical chain          number=13 hash=898d01…fb0ce2
+INFO [07-23|11:33:32.441] 🔨 mined potential block                  number=18 hash=7119e0…5d056c
+INFO [07-23|11:33:32.441] Mining too far in the future             wait=2s
+INFO [07-23|11:33:32.643] Submitted transaction                    fullhash=0xfb14b9fc252f3423ede0921534077831f6afbb185a41569f974aec6d85fd1d13 recipient=0x9FcB6B00abf9C25A4efC277AF9E360154A3a7559
+INFO [07-23|11:33:34.444] Commit new mining work                   number=19 txs=1 uncles=0 elapsed=2.003s
+INFO [07-23|11:33:35.309] Successfully sealed new block            number=19 hash=c92982…49d5f4
+INFO [07-23|11:33:35.312] 🔗 block reached canonical chain          number=14 hash=1312e9…3f1cf0
+INFO [07-23|11:33:35.312] 🔨 mined potential block                  number=19 hash=c92982…49d5f4
+INFO [07-23|11:33:35.312] Commit new mining work                   number=20 txs=0 uncles=0 elapsed=390.653µs
+INFO [07-23|11:33:35.382] Successfully sealed new block            number=20 hash=c7a807…1e7568
+INFO [07-23|11:33:35.383] 🔗 block reached canonical chain          number=15 hash=ff5b43…80a697
+INFO [07-23|11:33:35.383] 🔨 mined potential block                  number=20 hash=c7a807…1e7568
+INFO [07-23|11:33:35.383] Commit new mining work                   number=21 txs=0 uncles=0 elapsed=149.159µs
+INFO [07-23|11:33:35.725] Submitted contract creation              fullhash=0x5b57fc1f7dcc1c6d61139cd11dca7f56a131bb53ee4ebeccd7da754e31117c17 contract=0x75Ae79a166891f7a6129c2066AbFd95316F5705B
+INFO [07-23|11:33:36.509] Successfully sealed new block            number=21 hash=9dfed7…c81580
+INFO [07-23|11:33:36.509] 🔗 block reached canonical chain          number=16 hash=9b5bea…2dec42
+INFO [07-23|11:33:36.509] 🔨 mined potential block                  number=21 hash=9dfed7…c81580
+INFO [07-23|11:33:36.511] Commit new mining work                   number=22 txs=1 uncles=0 elapsed=1.974ms
+INFO [07-23|11:33:36.795] Successfully sealed new block            number=22 hash=236ddf…efbc33
+INFO [07-23|11:33:36.795] 🔗 block reached canonical chain          number=17 hash=d9b175…63e748
+INFO [07-23|11:33:36.795] 🔨 mined potential block                  number=22 hash=236ddf…efbc33
+INFO [07-23|11:33:36.795] Mining too far in the future             wait=2s
+INFO [07-23|11:33:37.259] Submitted transaction                    fullhash=0xbbbffb11bfd4dabffe6d19461e3ed3bacf2e177f461dacaa691079d1cd262f17 recipient=0x9FcB6B00abf9C25A4efC277AF9E360154A3a7559
+INFO [07-23|11:33:38.800] Commit new mining work                   number=23 txs=1 uncles=0 elapsed=2.004s
+INFO [07-23|11:33:41.554] Updated mining threads                   threads=0
+INFO [07-23|11:33:41.554] Transaction pool price threshold updated price=18000000000
+INFO [07-23|11:33:41.554] Starting mining operation 
+INFO [07-23|11:33:41.555] Commit new mining work                   number=23 txs=1 uncles=0 elapsed=599.222µs
+INFO [07-23|11:33:41.654] Successfully sealed new block            number=23 hash=d2b2d4…76b9f2
+INFO [07-23|11:33:41.654] 🔗 block reached canonical chain          number=18 hash=7119e0…5d056c
+INFO [07-23|11:33:41.654] 🔨 mined potential block                  number=23 hash=d2b2d4…76b9f2
+INFO [07-23|11:33:41.654] Commit new mining work                   number=24 txs=0 uncles=0 elapsed=140.29µs
+INFO [07-23|11:33:42.014] Successfully sealed new block            number=24 hash=7d291b…a7b0cc
+INFO [07-23|11:33:42.014] 🔗 block reached canonical chain          number=19 hash=c92982…49d5f4
+INFO [07-23|11:33:42.014] 🔨 mined potential block                  number=24 hash=7d291b…a7b0cc
+INFO [07-23|11:33:42.015] Commit new mining work                   number=25 txs=0 uncles=0 elapsed=195.432µs
+INFO [07-23|12:31:21.084] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [07-23|13:31:20.963] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [07-23|14:10:14.980] Block synchronisation started 
+INFO [07-23|14:10:15.134] Imported new state entries               count=15 elapsed=467.79µs  processed=15 pending=0 retry=0 duplicate=0 unexpected=0
+INFO [07-23|14:10:16.707] Imported new block headers               count=2  elapsed=1.664s    number=26 hash=5b57af…9e9b84 ignored=24
+WARN [07-23|14:10:16.721] Discarded bad propagated block           number=25 hash=5e1837…d5cb07
+INFO [07-23|14:10:16.758] Imported new chain segment               blocks=2 txs=2 mgas=0.000 elapsed=2.814ms   mgasps=0.000 number=26 hash=5b57af…9e9b84 cache=12.11kB ignored=3
+INFO [07-23|14:10:16.758] Fast sync complete, auto disabling 
+INFO [07-23|14:10:17.462] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.500ms   mgasps=0.000 number=27 hash=ae93d4…04e89d cache=12.53kB
+INFO [07-23|14:10:17.777] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.687ms   mgasps=0.000 number=28 hash=be4ac0…5c8b22 cache=12.95kB
+INFO [07-23|14:10:18.331] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.281ms   mgasps=0.000 number=29 hash=41f587…ebfc7d cache=13.37kB
+INFO [07-23|14:12:32.495] Updated mining threads                   threads=0
+INFO [07-23|14:12:32.495] Transaction pool price threshold updated price=18000000000
+INFO [07-23|14:12:32.495] Starting mining operation 
+INFO [07-23|14:12:32.495] Commit new mining work                   number=30 txs=0 uncles=0 elapsed=116.743µs
+INFO [07-23|14:12:32.495] 🔗 block reached canonical chain          number=20 hash=c7a807…1e7568
+INFO [07-23|14:12:32.495] 🔗 block reached canonical chain          number=21 hash=9dfed7…c81580
+INFO [07-23|14:12:32.495] 🔗 block reached canonical chain          number=22 hash=236ddf…efbc33
+INFO [07-23|14:12:32.495] 🔗 block reached canonical chain          number=23 hash=d2b2d4…76b9f2
+INFO [07-23|14:12:32.495] 🔗 block reached canonical chain          number=24 hash=7d291b…a7b0cc
+INFO [07-23|14:12:33.209] Successfully sealed new block            number=30 hash=21af83…94d66f
+INFO [07-23|14:12:33.211] 🔨 mined potential block                  number=30 hash=21af83…94d66f
+INFO [07-23|14:12:33.212] Commit new mining work                   number=31 txs=0 uncles=0 elapsed=218.767µs
+INFO [07-23|14:12:34.386] Successfully sealed new block            number=31 hash=ffaaa0…c76440
+INFO [07-23|14:12:34.386] 🔨 mined potential block                  number=31 hash=ffaaa0…c76440
+INFO [07-23|14:12:34.387] Commit new mining work                   number=32 txs=0 uncles=0 elapsed=206.138µs
+INFO [07-23|14:12:35.067] Successfully sealed new block            number=32 hash=4e6551…f2d2ab
+INFO [07-23|14:12:35.068] 🔨 mined potential block                  number=32 hash=4e6551…f2d2ab
+INFO [07-23|14:12:35.068] Commit new mining work                   number=33 txs=0 uncles=0 elapsed=231.333µs
